@@ -5,7 +5,7 @@ namespace Tyuiu.FilippovaVD.Sprint1.Task3.V9.Lib
     {
         public double ConvertMinutesToHours(int minuta)
         {
-            return minuta / 60.0;
+            return Math.Round(minuta / 60.0, 3);
         }
 
         public (int hours, int minutes) GetHoursAndMinutes(int totalMinutes)
