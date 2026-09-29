@@ -39,7 +39,8 @@ namespace Tyuiu.FilippovaVD.Sprint1.Task3.V9
             int remainingMinutes = minutesInput % 60;
 
             Console.WriteLine($"{minutesInput} минут - это {hours} ч. {remainingMinutes} мин.");
-            
+            Console.WriteLine($"В часах (округлено до 3 знаков): {Math.Round(totalHours, 3)}");
+
             Console.ReadLine();
         }
     }
