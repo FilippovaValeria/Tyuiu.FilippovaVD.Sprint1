@@ -6,7 +6,7 @@ namespace Tyuiu.FilippovaVD.Sprint1.Task4.V16.Lib
         public double Calculate(double x)
         {
             var res = 1 / (x + 4);
-            return res;
+            return Math.Round(res, 3);
         }
     }
 }
